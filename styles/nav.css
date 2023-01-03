@@ -1,0 +1,22 @@
+nav ul{
+    display: flex;
+    box-sizing: border-box;
+    border: 3px brown solid;
+    max-width: 100%;
+    background-color: azure;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 14px;
+    /* display: none; */
+    padding: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li:hover{
+    background-color: #ffffff4f;
+
+}

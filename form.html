@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        
+        }
+        form{
+            background-color:whitesmoke;
+        }
+        
+    </style>
+</head>
+<body style="color:wheat font: optional;">
+   <header>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="html5 audio video.html">Media</a></li>
+            
+        </ul>
+    </nav>
+    <h2>Welcome to Pitha Ghor</h2>
+   </header> 
+
+
+    <form>
+        <label for="name">YOUR NAME :
+            <input id="name" type="text" placeholder="your name">
+        </label>
+
+        <label for="email"> Your Email:
+            <input id="email" type="email" placeholder="your email">
+        <label for="number"> Your Email:
+            <input id="number" type="number" placeholder="mobile number">
+        </label>
+        <fieldset>
+            <legend>Pick one pitha</legend>
+        <label for="chitoi">
+            <input type="radio" name="pitha" id="chitoi">Chitoi
+        </label>
+        <label for="puli">
+            <input type="radio" name="pitha" id="puli">Puli
+        </label>
+        <label for="vhapa">
+            <input type="radio" name="pitha" id="vhapa">Vhapa
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Vortas Option</legend>
+        <label for="Shutki">
+            <input type="checkbox" name="vortas" id="Shutki">Shutki
+        </label>
+        <label for="Sorisha">
+            <input type="checkbox" name="vortas" id="Sorisha">Sorisha
+        </label>
+        <label for="Cingri">
+            <input type="checkbox" name="vortas" id="Cingri">Cingri
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Special Instruction
+        </legend>
+        <textarea name="" id="" cols="50" rows="3"></textarea>
+    </fieldset>
+    <input type="submit" value="submit">
+    <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
